@@ -1,0 +1,10 @@
+.fav-section__row {
+    height: 56px;
+    width: 901px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: rgba(33, 33, 33, 0.08);
+}

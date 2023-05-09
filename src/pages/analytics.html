@@ -1,69 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Botanique</title>
-    </head>
-    <body class="body">
-        <div class="page">
-            <header class="header">
-                <img class="header__logo" alt="Лого" src="../images/icons/logo.svg">
-                <nav class="header__navigation">
-                    <a class="header__navigation-link">ГЛАВНАЯ</a>
-                    <a class="header__navigation-link">АНАЛИТИКА</a>
-                </nav>
-                <img class="header__profile-icon" alt="Иконка профиля" src="../images/icons/user_icon.svg">
-            </header>
-            <main class="content">
-                <section class="card-top">
-                    <img class="card-top__image">
-                    <div class="card-top__fullname">
-                        <h1 class="card-top__name"></h1>
-                        <div class="card-top__info-container">
-                            <h2 class="card-top__info"></h2>
-                            <h2 class="card-top__sep"></h2>
-                            <h2 class="card-top__state"></h2>
-                        </div>
-                        <select name="state-setter" class="card-top__state-setter">
-                            <option value="1">В работе</option>
-                            <option value="2">Свободен</option>
-                        </select>
-                        <button type="button" class="card-top__like-button" name="like-button"></button>
-                        <button type="button" class="card-top__settings-button" name="settings-button"></button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanique</title>
+</head>
+<body class="body">
+    <div class="page">
+    <header class="header">
+        <img class="header__logo" alt="Лого" src="./images/icons/logo.svg">
+        <nav class="header__navigation">
+        <a class="header__navigation-link" href="/main.html">ГЛАВНАЯ</a>
+        <a class="header__navigation-link header__navigation-link_is-active" href="/analytics.html">АНАЛИТИКА</a>
+        </nav>
+        <img class="header__profile-icon" alt="Иконка профиля" src="./images/icons/user_icon.svg">
+    </header>
+        <main class="content content-analytics">
+            <section class="card-top">
+                <div class="card-top__fullname">
+                <img class="card-top__image" alt="Неизвестное устройство" src="./images/icons/unknown_device.svg">
+                <div class="card-top__info-container">
+                    <h1 class="card-top__name">pH-метр Mettler-Toledo International, Inc. SevenCompact S220</h1>
+                    <div class="card-top__info">
+                        <h2 class="card-top__info-text">S1.4.I14-9.001</h2>
+                        <h2 class="card-top__sep">&#183;</h2>
+                        <h2 class="card-top__state">00-024004</h2>
                     </div>
-                </section>
-                <section class="actions">
-                    <select name="action-setter" class="actions__action-setter">
-                        <option value="1">В работе</option>
-                        <option value="2">Свободен</option>
+                </div>
+                </div>
+                <div class="card-top__states">
+                    <select name="state-setter" class="card-top__state-setter card-top__state-setter_is-active">
+                    <option value="1">В работе</option>
+                    <option value="2">Свободен</option>
                     </select>
-                    <div class="actions__buttons">
-                        <button type="button" class="actions__button actions__clock-button" name="clock-button"></button>
-                        <div class="actions__button">
-                            <button type="button" class="actions__save-button" name="save-button">СОХРАНИТЬ PDF</button>
-                            <span class="actions__sep"></span>
-                            <button type="button" class="actions__other-button" name="other-button"></button>
-                        </div>
+                    <button type="button" class="card-top__like-button" name="like-button"></button>
+                    <button type="button" class="card-top__settings-button" name="settings-button"></button>
+                </div>
+            </section>
+            <section class="actions">
+                <select name="action-setter" class="actions__action-setter">
+                    <option value="1">Работа прибора</option>
+                    <option value="2">Состояние прибора</option>
+                </select>
+                <div class="actions__buttons">
+                    <button type="button" class="actions__button actions__clock-button" name="clock-button"></button>
+                    <div class="actions__button actions__save">
+                        <button type="button" class="actions__save-button" name="save-button">СОХРАНИТЬ PDF</button>
+                        <span class="actions__sep"></span>
+                        <button type="button" class="actions__other-button" name="other-button"></button>
                     </div>
-                </section>
-                <section class="datetime">
-                    <input type="datetime-local" id="localdate" name="date" class="datetime__calendar"/>
-                    <span class="datetime__arrow"></span>
-                    <input type="datetime-local" id="localdate" name="date" class="datetime__calendar"/>
-                </section>
-                <section class="time-chips">
-                    <button type="button" name="time-chip-day" class="time-chips__item"></button>
-                    <button type="button" name="time-chip-week" class="time-chips__item"></button>
-                    <button type="button" name="time-chip-2weeks" class="time-chips__item"></button>
-                    <button type="button" name="time-chip-month" class="time-chips__item"></button>
-                    <button type="button" name="time-chip-3month" class="time-chips__item"></button>
-                    <button type="button" name="time-chip-halfyear" class="time-chips__item"></button>
-                </section>
-                <table>
-                    
-                </table>
-            </main>
-        </div>
-    </body>
+                </div>
+            </section>
+            <section class="datetime">
+                <input type="datetime-local" id="date_from" name="date_from" class="datetime__calendar"/>
+                <span class="datetime__arrow"></span>
+                <input type="datetime-local" id="date_to" name="date_to" class="datetime__calendar"/>
+            </section>
+            <section class="time-chips">
+                <button type="button" name="time-chip-day" class="time-chips__item time-chips__item_is-active">День</button>
+                <button type="button" name="time-chip-week" class="time-chips__item">Неделя</button>
+                <button type="button" name="time-chip-2weeks" class="time-chips__item">2 недели</button>
+                <button type="button" name="time-chip-month" class="time-chips__item">Месяц</button>
+                <button type="button" name="time-chip-3month" class="time-chips__item">3 месяца</button>
+                <button type="button" name="time-chip-halfyear" class="time-chips__item">Полгода</button>
+            </section>
+            <table class="item-info">
+                <tr class="item-info__row item-info__row_header">
+                    <th class="item-info__begining">Начало</th>
+                    <th class="item-info__type">Тип работ</th>
+                    <th class="item-info__work">Работы</th>
+                    <th class="item-info__result item-info__result_header">Результат</th>
+                    <th class="item-info__user">Пользователь</th>
+                </tr>
+            </table>
+        </main>
+
+        <template id="info-item">
+            <tr class="item-info__row">
+                <th class="item-info__begining"></th>
+                <th class="item-info__type">
+
+                </th>
+                <th class="item-info__work">
+
+                </th>
+                <th class="item-info__result">
+
+                </th>
+                <th class="item-info__user">
+
+                </th>
+            </tr>
+        </template>
+    </div>
+</body>
 </html>

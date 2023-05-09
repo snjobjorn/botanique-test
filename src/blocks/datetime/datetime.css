@@ -1,0 +1,8 @@
+.datetime {
+    margin: 8px 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: calc(100% - 2 * 16px);
+    box-sizing: border-box;
+}

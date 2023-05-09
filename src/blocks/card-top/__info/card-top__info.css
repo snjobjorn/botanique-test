@@ -1,0 +1,5 @@
+.card-top__info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2px;
+}

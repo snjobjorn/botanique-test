@@ -1,0 +1,15 @@
+.header__navigation-link {
+    width: 164px;
+    display: flex;
+	align-items: center;  
+	justify-content: center;
+	text-align: center; 
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}

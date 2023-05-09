@@ -1,0 +1,15 @@
+.actions__save-button {
+    margin-left: 16px;
+    width: 140px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #23B04A;
+    cursor: pointer;
+    border: 0;
+    background: #ffffff;
+}

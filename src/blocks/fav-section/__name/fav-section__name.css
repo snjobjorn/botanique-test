@@ -1,0 +1,14 @@
+.fav-section__name {
+    width: 656px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.87);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

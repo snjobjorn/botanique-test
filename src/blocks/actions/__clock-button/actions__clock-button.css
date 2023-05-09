@@ -1,0 +1,8 @@
+.actions__clock-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background: url(../../../images/icons/clock.svg) no-repeat center;
+    cursor: pointer;
+}

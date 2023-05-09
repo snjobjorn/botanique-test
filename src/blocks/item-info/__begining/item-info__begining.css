@@ -1,0 +1,13 @@
+.item-info__begining {
+    width: calc(160px - 2 * 12px);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: flex-start;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.38);
+}

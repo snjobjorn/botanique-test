@@ -1,0 +1,20 @@
+.card-top__state-setter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 2px 2px 4px;
+    gap: 4px;
+    width: 97px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+    appearance: none;
+    background: url('../../../images/icons/caret.svg') no-repeat right;
+    background-position: top 9.67px right 8.67px;
+    cursor: pointer;
+}

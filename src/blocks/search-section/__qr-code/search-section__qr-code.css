@@ -1,0 +1,8 @@
+.search-section__qr-code {
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+    background: url(../../../images/icons/qr_code.svg) no-repeat top right;
+    border: 0;
+    cursor: pointer;
+}

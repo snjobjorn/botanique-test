@@ -1,0 +1,6 @@
+.card-top__states {
+    padding-left: 238px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+}

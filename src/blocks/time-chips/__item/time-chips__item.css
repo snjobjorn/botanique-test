@@ -1,0 +1,16 @@
+.time-chips__item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px;
+    height: 32px;
+    background: rgba(33, 33, 33, 0.08);
+    border-radius: 16px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+}

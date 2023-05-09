@@ -1,0 +1,9 @@
+.item-info__row {
+    border-bottom: 1px solid rgba(33,33,33,.08);
+    display: flex;
+    flex-direction: row;
+    height: 124px;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: flex-start;
+}

@@ -1,0 +1,17 @@
+.item-info__result {
+    width: calc(140px - 12px - 26px);
+    height: calc(100% - 2 * 12px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 12px;
+    padding-right: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: flex-start;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.38);
+    background: url(../../../images/icons/tick.svg) no-repeat top 16.67px right 8.5px;
+}

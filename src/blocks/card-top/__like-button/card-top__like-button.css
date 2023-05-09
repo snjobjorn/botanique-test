@@ -1,0 +1,10 @@
+.card-top__like-button {
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: url(../../../images/icons/red_hearth.svg) no-repeat top right;;
+    border: 0;
+    cursor: pointer;
+}

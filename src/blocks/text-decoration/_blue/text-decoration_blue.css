@@ -1,0 +1,6 @@
+.text-decoration_blue {
+    color: #2E9BC2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

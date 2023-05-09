@@ -1,0 +1,18 @@
+.item-info__work {
+    width: calc(486px - 2 * 12px);
+    height: calc(100% - 2 * 12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px;
+    padding-bottom: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: flex-start;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.38);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

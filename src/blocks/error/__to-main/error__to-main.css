@@ -1,0 +1,16 @@
+.error__to-main {
+    border: 2px solid;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.error__to-main:hover {
+    color: #23B04A;
+}

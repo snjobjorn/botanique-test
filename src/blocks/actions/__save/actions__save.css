@@ -1,0 +1,9 @@
+.actions__save {
+    height: 38px;
+    width: 189px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

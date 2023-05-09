@@ -1,0 +1,6 @@
+.text-decoration_green {
+    color: #23B04A;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,7 @@
+.fav-section__picture {
+    width: 64px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

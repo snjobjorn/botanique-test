@@ -1,0 +1,11 @@
+.search-section {
+    width: 935px;
+    height: 56px;
+    margin-top: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
